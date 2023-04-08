@@ -8,6 +8,9 @@ void main(List<String> arguments) {
   //final result = invertScreen(inputString: "String", type: Type.func);
   //print(result);
 
-  double result = arithmeticMean(number1: 3, number2: 9, number3: 4);
+  //double result = arithmeticMean(number1: 3, number2: 9, number3: 4);
+  //print(result);
+
+  final result = capitalLetters(inputString: "game ower");
   print(result);
 }
