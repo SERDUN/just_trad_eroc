@@ -11,6 +11,10 @@ void main(List<String> arguments) {
   //double result = arithmeticMean(number1: 3, number2: 9, number3: 4);
   //print(result);
 
-  final result = capitalLetters(inputString: "game ower");
-  print(result);
+  //final result = capitalLetters(inputString: "game ower");
+  //print(result);
+
+  bool result = primeNumbers(number: 6);
+  print(result?"Prime":"Complex number");
+
 }
