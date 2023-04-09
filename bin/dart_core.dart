@@ -24,9 +24,12 @@ void main(List<String> arguments) {
   // );
   // print(result? "they are equal":"they are not equal");
 
-  bool result = sameCharacters(
-    inputString1: "Hello, my little friend",
-    inputString2: "Hello World",
-  );
-  print(result ? "coincided" : "not coincided");
+  // bool result = sameCharacters(
+  //   inputString1: "Hello, my little friend",
+  //   inputString2: "Hello World",
+  // );
+  // print(result ? "coincided" : "not coincided");
+
+  bool result = palindromeCheck(inputString: "Tenet");
+  print(result ? "palindrome" : "not palindrome");
 }
