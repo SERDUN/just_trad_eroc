@@ -30,6 +30,9 @@ void main(List<String> arguments) {
   // );
   // print(result ? "coincided" : "not coincided");
 
-  bool result = palindromeCheck(inputString: "Tenet");
-  print(result ? "palindrome" : "not palindrome");
+  // bool result = palindromeCheck(inputString: "Tenet");
+  // print(result ? "palindrome" : "not palindrome");
+
+  int result = productMultiplication(number1: 7, number2: 8);
+  print(result);
 }
