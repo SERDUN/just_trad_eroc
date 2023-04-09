@@ -14,7 +14,13 @@ void main(List<String> arguments) {
   //final result = capitalLetters(inputString: "game ower");
   //print(result);
 
-  bool result = primeNumbers(number: 6);
-  print(result?"Prime":"Complex number");
+  //bool result = primeNumbers(number: 6);
+  //print(result?"Prime":"Complex number");
 
+  final result = wordsEquality(
+    inputString1: "Hello world",
+    inputString2: "Hello Dmytro",
+    type: TypeWord.array,
+  );
+  print(result);
 }
