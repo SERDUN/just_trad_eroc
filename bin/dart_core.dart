@@ -17,10 +17,10 @@ void main(List<String> arguments) {
   //bool result = primeNumbers(number: 6);
   //print(result?"Prime":"Complex number");
 
-  final result = wordsEquality(
-    inputString1: "Hello world",
+  bool result = wordsEquality(
+    inputString1: "Hello World",
     inputString2: "Hello Dmytro",
     type: TypeWord.array,
   );
-  print(result);
+  print(result? "they are equal":"they are not equal");
 }
