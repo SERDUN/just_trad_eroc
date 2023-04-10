@@ -1,4 +1,4 @@
-binaryNumber({
+String convertToBinaryNumber({
   required double number,
 }) {
   String numberList = "";

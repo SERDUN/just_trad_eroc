@@ -48,6 +48,6 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = binaryNumber(number: 11);
+  final result = convertToBinaryNumber(number: 11);
   print(result);
 }
