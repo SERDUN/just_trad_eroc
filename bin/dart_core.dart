@@ -36,6 +36,6 @@ void main(List<String> arguments) {
   // int result = productMultiplication(number1: 7, number2: 8);
   // print(result);
 
-  final result = evenNumber(number: 100);
+  final result = evenNumber();
   print(result);
 }
