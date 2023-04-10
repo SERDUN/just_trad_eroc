@@ -36,6 +36,9 @@ void main(List<String> arguments) {
   // int result = productMultiplication(number1: 7, number2: 8);
   // print(result);
 
-  final result = evenNumber();
+  //final result = evenNumber();
+  //print(result);
+
+  final result = fractionFromDivision(number1: 7, number2: 4);
   print(result);
 }
