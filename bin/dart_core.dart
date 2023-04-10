@@ -33,6 +33,9 @@ void main(List<String> arguments) {
   // bool result = palindromeCheck(inputString: "Tenet");
   // print(result ? "palindrome" : "not palindrome");
 
-  int result = productMultiplication(number1: 7, number2: 8);
+  // int result = productMultiplication(number1: 7, number2: 8);
+  // print(result);
+
+  final result = evenNumber(number: 100);
   print(result);
 }
