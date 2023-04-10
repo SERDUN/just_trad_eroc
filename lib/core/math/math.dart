@@ -4,3 +4,4 @@ export 'prime_numbers.dart';
 export 'product_multiplication.dart';
 export 'even_number.dart';
 export 'fraction_from_division.dart';
+export 'binary_number_system.dart';
