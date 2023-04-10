@@ -39,6 +39,12 @@ void main(List<String> arguments) {
   //final result = evenNumber();
   //print(result);
 
-  final result = fractionFromDivision(number1: 7, number2: 4);
+  // final result = fractionFromDivision(number1: 7, number2: 4);
+  // print(result);
+
+  final result = greatestCommonWord(
+    inputString1: "I was at a  concert  wonderful        ",
+    inputString2: "I was at  dinner wonderful",
+  );
   print(result);
 }
