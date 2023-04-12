@@ -51,11 +51,11 @@ void main(List<String> arguments) {
   //final result = convertToBinaryNumber(number: 11);
   //print(result);
 
-  final result = passwordGeneration(
-    capitalLetters: "Yes",
+  final result = generatePassword(
+    isCapitalLetters: true,
     passLength: 8,
-    small_letters: "No",
-    number: "Yes",
-    special_symbols: "Yes",);
+    isSmallLetters: true,
+    isNumber: true,
+    isSpecialSymbols: true,);
   print(result);
 }
