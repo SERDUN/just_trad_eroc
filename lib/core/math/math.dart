@@ -8,3 +8,4 @@ export 'binary_number_system.dart';
 export 'password_generation.dart';
 export 'difference_two_numbers.dart';
 export 'division_by_three_or_five.dart';
+export 'celsius_to_fahrenheit.dart';
