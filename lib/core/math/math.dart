@@ -6,3 +6,4 @@ export 'even_number.dart';
 export 'fraction_from_division.dart';
 export 'binary_number_system.dart';
 export 'password_generation.dart';
+export 'difference_two_numbers.dart';
