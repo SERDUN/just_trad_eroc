@@ -81,6 +81,9 @@ void main(List<String> arguments) {
   // final result = findAllDivisorsOfNumber(number: 96);
   // print(result);
 
-  final result = isPerfectNumber(number: 6);
-  print(result ? "It is number - perfect" : "It is number - not perfect");
+  // final result = isPerfectNumber(number: 6);
+  // print(result ? "It is number - perfect" : "It is number - not perfect");
+
+  final result = findFactorialOfNumber(number: 10);
+  print(result);
 }
