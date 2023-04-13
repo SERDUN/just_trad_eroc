@@ -78,6 +78,9 @@ void main(List<String> arguments) {
   // final result = convertFromCelsiusToFahrenheit(celsius: 32.2);
   // print(result);
 
-  final result = findAllDivisorsOfNumber(number: 96);
+  // final result = findAllDivisorsOfNumber(number: 96);
+  // print(result);
+
+  final result = checkPerfectNumber(number: 33);
   print(result);
 }
