@@ -75,6 +75,9 @@ void main(List<String> arguments) {
   // final result = divisionByThreeOrFive(number: 100);
   // print(result);
 
-  final result = convertFromCelsiusToFahrenheit(celsius: 32.2);
+  // final result = convertFromCelsiusToFahrenheit(celsius: 32.2);
+  // print(result);
+
+  final result = findAllDivisorsOfNumber(number: 96);
   print(result);
 }
