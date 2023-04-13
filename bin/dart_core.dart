@@ -51,12 +51,18 @@ void main(List<String> arguments) {
   //final result = convertToBinaryNumber(number: 11);
   //print(result);
 
-  final result = generatePassword(
-    isCapitalLetters: true,
-    passLength: 8,
-    isSmallLetters: true,
-    isNumber: true,
-    isSpecialSymbols: true,
+  // final result = generatePassword(
+  //   isCapitalLetters: true,
+  //   passLength: 8,
+  //   isSmallLetters: true,
+  //   isNumber: true,
+  //   isSpecialSymbols: true,
+  // );
+  // print(result);
+
+  final result = removingSpaces(
+    inputString: "Hello world",
+    executionMethod: TypeFunc.stringMethodFunc,
   );
   print(result);
 }
