@@ -7,12 +7,17 @@ generatePassword({
   required bool isSpecialSymbols,
   required int passLength,
 }) {
-  String password = '';
   List<String> seed = _generateSeed(
           isCapitalLetters, isSmallLetters, isNumber, isSpecialSymbols)
       .split("")
       .toList();
+  String resultPassword = functionGenerate(passLength, seed);
+  return resultPassword;
+}
+
+String functionGenerate(int passLength, List<String> seed) {
   Random rand = Random();
+  String password = '';
 
   for (int i = 0; i < passLength; i++) {
     int index = rand.nextInt(seed.length);
