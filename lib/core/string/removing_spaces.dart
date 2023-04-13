@@ -21,7 +21,7 @@ String _removeSpacesByString(inputString) {
 }
 
 String _removeSpacesCycle(String inputString) {
-  int spaceCodeUnits = 32;
+  final int spaceCodeUnits = 32;
   List<int> inputData = inputString.codeUnits;
   List<int> outputData = [];
   for (int i = 0; i <= inputData.length - 1; i++) {
