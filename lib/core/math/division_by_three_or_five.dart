@@ -1,4 +1,4 @@
-divisionByThreeOrFive({
+List<int> divisionByThreeOrFive({
   required int number,
 }) {
   List<int> dividers = [];
