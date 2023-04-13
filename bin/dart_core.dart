@@ -60,9 +60,15 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = removingSpaces(
-    inputString: "Hello world",
-    executionMethod: TypeFunc.stringMethodFunc,
+  // final result = removingSpaces(
+  //   inputString: "Hello world",
+  //   executionMethod: TypeFunc.stringMethodFunc,
+  // );
+  // print(result);
+
+  final result = subtractionNumbers(
+    number1: 18,
+    number2: 9,
   );
   print(result);
 }
