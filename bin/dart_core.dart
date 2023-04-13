@@ -72,6 +72,9 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = divisionByThreeOrFive(number: 100);
+  // final result = divisionByThreeOrFive(number: 100);
+  // print(result);
+
+  final result = convertFromCelsiusToFahrenheit(celsius: 32.2);
   print(result);
 }
