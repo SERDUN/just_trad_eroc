@@ -11,11 +11,11 @@ generatePassword({
           isCapitalLetters, isSmallLetters, isNumber, isSpecialSymbols)
       .split("")
       .toList();
-  String resultPassword = _generationPassword(passLength, seed);
+  String resultPassword = _generatePassword(passLength, seed);
   return resultPassword;
 }
 
-String _generationPassword(int passLength, List<String> seed) {
+String _generatePassword(int passLength, List<String> seed) {
   Random rand = Random();
   String password = '';
 
