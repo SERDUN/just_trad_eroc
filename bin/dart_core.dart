@@ -56,6 +56,7 @@ void main(List<String> arguments) {
     passLength: 8,
     isSmallLetters: true,
     isNumber: true,
-    isSpecialSymbols: true,);
+    isSpecialSymbols: true,
+  );
   print(result);
 }
