@@ -1,5 +1,5 @@
 enum TypeFunc {
-  funcStringMethod,
+  stringMethodFunc,
   cycleFunc,
 }
 
@@ -8,7 +8,7 @@ String removingSpaces({
   TypeFunc executionMethod = TypeFunc.cycleFunc,
 }) {
   switch (executionMethod) {
-    case TypeFunc.funcStringMethod:
+    case TypeFunc.stringMethodFunc:
       return _removeSpacesByString(inputString);
     case TypeFunc.cycleFunc:
       return _removeSpacesCycle(inputString);
@@ -21,10 +21,11 @@ String _removeSpacesByString(inputString) {
 }
 
 String _removeSpacesCycle(String inputString) {
+  int spaceCodeUnits = 32;
   List<int> inputData = inputString.codeUnits;
   List<int> outputData = [];
   for (int i = 0; i <= inputData.length - 1; i++) {
-    if (inputData[i] != 32) {
+    if (inputData[i] != spaceCodeUnits) {
       outputData.add(inputData[i]);
     }
   }

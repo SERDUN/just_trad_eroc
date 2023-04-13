@@ -62,7 +62,7 @@ void main(List<String> arguments) {
 
   final result = removingSpaces(
     inputString: "Hello world",
-    executionMethod: TypeFunc.funcStringMethod,
+    executionMethod: TypeFunc.stringMethodFunc,
   );
   print(result);
 }
