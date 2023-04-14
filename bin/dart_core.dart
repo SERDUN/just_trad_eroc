@@ -89,6 +89,6 @@ void main(List<String> arguments) {
 
   // guessNumber();
 
-  final result = additionNumbers(number: 100);
+  final result = addNumberForToplimit(number: 100);
   print(result);
 }
