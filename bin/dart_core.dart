@@ -87,5 +87,8 @@ void main(List<String> arguments) {
   // final result = findFactorialOfNumber(number: 10);
   // print(result);
 
-  guessNumber();
+  // guessNumber();
+
+  final result = addNumberForTopLimit(number: 100);
+  print(result);
 }
