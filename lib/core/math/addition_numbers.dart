@@ -1,4 +1,4 @@
-int addNumberForToplimit({
+int addNumberForTopLimit({
   required int number,
 }) {
   int sum = 0;
