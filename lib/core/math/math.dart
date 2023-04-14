@@ -12,3 +12,4 @@ export 'celsius_to_fahrenheit.dart';
 export 'find_all_divisors_of_number.dart';
 export 'perfect_number.dart';
 export 'factorial_of_numbers.dart';
+export 'guess_number.dart';
