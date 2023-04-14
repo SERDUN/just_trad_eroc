@@ -89,6 +89,9 @@ void main(List<String> arguments) {
 
   // guessNumber();
 
-  final result = addNumberForTopLimit(number: 100);
+  // final result = addNumberForTopLimit(number: 100);
+  // print(result);
+
+  final result = sumOfDivisorsThreeOrFive(number: 100);
   print(result);
 }
