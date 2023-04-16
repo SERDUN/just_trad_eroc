@@ -128,12 +128,16 @@ void main(List<String> arguments) {
   // final result = getSmallestListElement(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = checkListContainsGivenElement(
+  //   numbers: numbers,
+  //   checkNumber: 10,
+  // );
+  // print(
+  //   result ? "Contains a given element" : "Not contain the given element",
+  // );
+
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = checkListContainsGivenElement(
-    numbers: numbers,
-    checkNumber: 10,
-  );
-  print(
-    result ? "Contains a given element" : "Not contain the given element",
-  );
+  final result = findElementLargerThenPrevious(numbers: numbers);
+  print(result);
 }
