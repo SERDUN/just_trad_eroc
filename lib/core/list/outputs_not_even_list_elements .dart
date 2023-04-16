@@ -3,8 +3,8 @@ List<int> outputNotEvenListElements({
 }) {
   List<int> notEvenElements = [];
   for (var element in numbers) {
-    double check = element % 2;
-    if (check > 0) {
+    bool isEven = (element % 2) > 0;
+    if (isEven) {
       notEvenElements.add(element);
     }
   }
