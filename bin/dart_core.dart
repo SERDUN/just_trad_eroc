@@ -124,7 +124,16 @@ void main(List<String> arguments) {
   // final result = getNotEvenListElements(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = getSmallestListElement(numbers: numbers);
+  // print(result);
+
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = getSmallestListElement(numbers: numbers);
-  print(result);
+  final result = checkListContainsGivenElement(
+    numbers: numbers,
+    checkNumber: 10,
+  );
+  print(
+    result ? "Contains a given element" : "Not contain the given element",
+  );
 }
