@@ -32,6 +32,5 @@ int _forEachFunc(List<int> numbers) {
       maxNumber = element;
     }
   }
-
   return maxNumber;
 }
