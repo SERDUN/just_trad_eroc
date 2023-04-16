@@ -96,9 +96,15 @@ void main(List<String> arguments) {
   // final result = sumOfDivisorsThreeOrFive(number: 100);
   // print(result);
 
-  final result = findTheLargestListElement(
-    numbers: [1, 4, 5, 6, 8, 45, 3, 56, 23],
-    type: TypeFunction.methodForEach,
+  // final result = findTheLargestListElement(
+  //   numbers: [1, 4, 5, 6, 8, 45, 3, 56, 23],
+  //   type: TypeFunction.methodForEach,
+  // );
+  // print(result);
+
+  final result = sumAllListElement(
+    numbers: [23, 341, 34, 23],
+    type: TypeMethod.forFunc,
   );
   print(result);
 }
