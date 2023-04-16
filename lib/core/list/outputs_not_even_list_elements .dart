@@ -1,4 +1,4 @@
-List<int> outputNotEvenListElements({
+List<int> getNotEvenListElements({
   required List<int> numbers,
 }) {
   List<int> notEvenElements = [];
