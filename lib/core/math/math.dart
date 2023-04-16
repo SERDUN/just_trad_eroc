@@ -14,3 +14,4 @@ export 'perfect_number.dart';
 export 'factorial_of_numbers.dart';
 export 'guess_number.dart';
 export 'addition_numbers.dart';
+export 'sum_of_divisors_by_three_or_five.dart';

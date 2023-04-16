@@ -93,6 +93,9 @@ void main(List<String> arguments) {
   // final result = addNumberForTopLimit(number: 100);
   // print(result);
 
+  // final result = sumOfDivisorsThreeOrFive(number: 100);
+  // print(result);
+
   final result = findTheLargestListElement(
     numbers: [1, 4, 5, 6, 8, 45, 3, 56, 23],
     type: TypeFunction.methodForEach,
