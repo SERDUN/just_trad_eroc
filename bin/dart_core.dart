@@ -102,9 +102,13 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = sumAllListElement(
-    numbers: [23, 341, 34, 23],
-    type: TypeMethod.forFunc,
-  );
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = sumAllListElement(numbers:numbers,
+  //   type: TypeMethod.forFunc,
+  // );
+  // print(result);
+
+  List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  final result = sumEvenListElements(numbers: numbers);
   print(result);
 }
