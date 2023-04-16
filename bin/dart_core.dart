@@ -120,7 +120,11 @@ void main(List<String> arguments) {
   // final result = listReverse(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = getNotEvenListElements(numbers: numbers);
+  // print(result);
+
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = getNotEvenListElements(numbers: numbers);
+  final result = getSmallestListElements(numbers: numbers);
   print(result);
 }
