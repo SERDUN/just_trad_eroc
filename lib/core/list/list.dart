@@ -4,3 +4,4 @@ export 'sum_of_even_list_elements.dart';
 export 'arithmetic_mean_of_all_elements_list.dart';
 export 'list_in_reverse.dart';
 export 'outputs_not_even_list_elements .dart';
+export 'get_smallest_element_in_list.dart';
