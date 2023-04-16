@@ -112,8 +112,12 @@ void main(List<String> arguments) {
   // final result = sumEvenListElements(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = arithmeticMeanListElements(numbers:numbers);
+  // print(result);
+
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = arithmeticMeanListElements(numbers:numbers);
+  final result = listReverse(numbers: numbers);
   print(result);
 
 }
