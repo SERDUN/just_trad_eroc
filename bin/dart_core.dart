@@ -125,6 +125,6 @@ void main(List<String> arguments) {
   // print(result);
 
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = getSmallestListElements(numbers: numbers);
+  final result = getSmallestListElement(numbers: numbers);
   print(result);
 }

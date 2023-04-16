@@ -1,4 +1,4 @@
-int getSmallestListElements({
+int getSmallestListElement({
   required List<int> numbers,
 }) {
   int smallestElements = numbers.first;
