@@ -12,15 +12,15 @@ int findDuplicatesInList({
 }) {
   switch (type) {
     case TypeMethods.method1:
-      return _counterDuplicateNumbers(numbers);
+      return _getDuplicateNumbersMethod1(numbers);
     case TypeMethods.method2:
-      return _listLengthDuplicateNumbers(numbers);
+      return _getDuplicateNumbersMethod2(numbers);
     case TypeMethods.method3:
-      return _findDuplicatesInMap(numbers);
+      return _getDuplicateNumbersInMap(numbers);
   }
 }
 
-int _counterDuplicateNumbers(List<int> numbers) {
+int _getDuplicateNumbersMethod1(List<int> numbers) {
   numbers.sort();
   List<int> duplicates = [];
   int counter = 0;
@@ -33,7 +33,7 @@ int _counterDuplicateNumbers(List<int> numbers) {
   return counter;
 }
 
-int _listLengthDuplicateNumbers(List<int> numbers) {
+int _getDuplicateNumbersMethod2(List<int> numbers) {
   List<int> duplicates = [];
   for (int i = 0; i <= numbers.length - 1; i++) {
     for (int j = i; j <= numbers.length - 1; j++) {
@@ -49,20 +49,20 @@ int _listLengthDuplicateNumbers(List<int> numbers) {
   return duplicates.length;
 }
 
-int _findDuplicatesInMap(List<int> numbers) {
-  HashMap map = HashMap();
-  List<int> out = [];
+int _getDuplicateNumbersInMap(List<int> numbers) {
+  HashMap mapNumbers = HashMap();
+  List<int> duplicateNumbers = [];
   for (int i = 0; i < numbers.length; i++) {
-    if (map.containsKey(numbers[i])) {
-      map[numbers[i]] = map[numbers[i]] + 1;
+    if (mapNumbers.containsKey(numbers[i])) {
+      mapNumbers[numbers[i]] = mapNumbers[numbers[i]] + 1;
     } else {
-      map[numbers[i]] = 0;
+      mapNumbers[numbers[i]] = 0;
     }
   }
-  map.forEach((key, value) {
+  mapNumbers.forEach((key, value) {
     if (value > 0) {
-      out.add(key);
+      duplicateNumbers.add(key);
     }
   });
-  return out.length;
+  return duplicateNumbers.length;
 }
