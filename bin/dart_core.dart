@@ -137,7 +137,11 @@ void main(List<String> arguments) {
   //   result ? "Contains a given element" : "Not contain the given element",
   // );
 
-  List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
-  final result = findElementLargerThenPrevious(numbers: numbers);
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11];
+  // final result = findElementLargerThenPrevious(numbers: numbers);
+  // print(result);
+
+  List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
+  final result = findDuplicatesInList(numbers: numbers);
   print(result);
 }
