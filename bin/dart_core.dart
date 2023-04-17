@@ -142,6 +142,9 @@ void main(List<String> arguments) {
   // print(result);
 
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
-  final result = findDuplicatesInList(numbers: numbers);
+  final result = findDuplicatesInList(
+    numbers: numbers,
+    type: TypeMethods.method1,
+  );
   print(result);
 }
