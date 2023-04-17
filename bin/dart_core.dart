@@ -162,7 +162,11 @@ void main(List<String> arguments) {
   // );
   // print(result ? "Palindrome" : "Not palindrome");
 
-  List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
-  final result = removeAllNotEvenListElements(numbers: numbers);
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
+  // final result = removeAllNotEvenListElements(numbers: numbers);
+  // print(result);
+
+  List<int> numbers = [33, 3, 10, 6, 4, 8, 11, 10, 14];
+  final result = findElementsGreaterThenArithMean(numbers: numbers);
   print(result);
 }
