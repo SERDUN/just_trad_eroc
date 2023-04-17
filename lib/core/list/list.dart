@@ -8,3 +8,4 @@ export 'get_smallest_element_in_list.dart';
 export 'check_list_contains_given_element.dart';
 export 'find_element_which_larger_then_previous.dart';
 export 'find_duplicates_in_list.dart';
+export 'removes_specified_element.dart';

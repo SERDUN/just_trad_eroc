@@ -141,10 +141,18 @@ void main(List<String> arguments) {
   // final result = findElementLargerThenPrevious(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
+  // final result = findDuplicatesInList(
+  //   numbers: numbers,
+  //   type: TypeMethods.method3,
+  // );
+  // print(result);
+
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
-  final result = findDuplicatesInList(
+  final result = removesSpecifiedElementFromList(
     numbers: numbers,
-    type: TypeMethods.method3,
+    specifiedNumber: 10,
+    type: TypeRemoveMethod.removeWhereMethod,
   );
   print(result);
 }
