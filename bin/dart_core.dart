@@ -155,9 +155,14 @@ void main(List<String> arguments) {
   //   type: TypeRemoveMethod.removeWhereMethod,
   // );
   // print(result);
-  List<int> numbers = [2, 2, 3, 3, 3, 2, 2];
-  final result = checkListIsPalindrome(
-    numbers: numbers,
-  );
-  print(result ? "Palindrome" : "Not palindrome");
+
+  // List<int> numbers = [2, 2, 3, 3, 3, 2, 2];
+  // final result = checkListIsPalindrome(
+  //   numbers: numbers,
+  // );
+  // print(result ? "Palindrome" : "Not palindrome");
+
+  List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
+  final result = removeAllNotEvenListElements(numbers: numbers);
+  print(result);
 }

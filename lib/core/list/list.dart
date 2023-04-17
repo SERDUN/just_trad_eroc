@@ -10,3 +10,4 @@ export 'find_element_which_larger_then_previous.dart';
 export 'find_duplicates_in_list.dart';
 export 'removes_specified_element.dart';
 export 'check_list_is_palindrome.dart';
+export 'remove_all_not_even_list_elements.dart';
