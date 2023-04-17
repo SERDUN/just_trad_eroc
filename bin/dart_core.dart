@@ -151,8 +151,8 @@ void main(List<String> arguments) {
   List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
   final result = removesSpecifiedElementFromList(
     numbers: numbers,
-    specifiedNumber: 8,
-    type: TypeRemoveMethod.removeInList,
+    specifiedNumber: 10,
+    type: TypeRemoveMethod.removeWhereMethod,
   );
   print(result);
 }
