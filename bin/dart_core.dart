@@ -148,11 +148,16 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
-  final result = removesSpecifiedElementFromList(
+  // List<int> numbers = [65, 3, 10, 6, 4, 8, 11, 10, 3];
+  // final result = removesSpecifiedElementFromList(
+  //   numbers: numbers,
+  //   specifiedNumber: 10,
+  //   type: TypeRemoveMethod.removeWhereMethod,
+  // );
+  // print(result);
+  List<int> numbers = [2, 2, 3, 3, 3, 2, 2];
+  final result = checkListIsPalindrome(
     numbers: numbers,
-    specifiedNumber: 10,
-    type: TypeRemoveMethod.removeWhereMethod,
   );
-  print(result);
+  print(result ? "Palindrome" : "Not palindrome");
 }
