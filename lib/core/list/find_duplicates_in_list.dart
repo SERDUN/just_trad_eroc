@@ -6,7 +6,7 @@ enum TypeMethods {
   method3,
 }
 
-findDuplicatesInList({
+int findDuplicatesInList({
   required List<int> numbers,
   TypeMethods type = TypeMethods.method1,
 }) {
@@ -14,7 +14,7 @@ findDuplicatesInList({
     case TypeMethods.method1:
       return _counterDuplicateNumbers(numbers);
     case TypeMethods.method2:
-      return _addListDuplicateNumbers(numbers);
+      return _listLengthDuplicateNumbers(numbers);
     case TypeMethods.method3:
       return _findDuplicatesInMap(numbers);
   }
@@ -33,7 +33,7 @@ int _counterDuplicateNumbers(List<int> numbers) {
   return counter;
 }
 
-List<int> _addListDuplicateNumbers(List<int> numbers) {
+int _listLengthDuplicateNumbers(List<int> numbers) {
   List<int> duplicates = [];
   for (int i = 0; i <= numbers.length - 1; i++) {
     for (int j = i; j <= numbers.length - 1; j++) {
@@ -46,10 +46,10 @@ List<int> _addListDuplicateNumbers(List<int> numbers) {
       }
     }
   }
-  return duplicates;
+  return duplicates.length;
 }
 
-_findDuplicatesInMap(List<int> numbers) {
+int _findDuplicatesInMap(List<int> numbers) {
   HashMap map = HashMap();
   List<int> out = [];
   for (int i = 0; i < numbers.length; i++) {
@@ -64,5 +64,5 @@ _findDuplicatesInMap(List<int> numbers) {
       out.add(key);
     }
   });
-  return out;
+  return out.length;
 }
