@@ -174,7 +174,7 @@ void main(List<String> arguments) {
   // final result = sortInAscendingOrder(numbers: numbers);
   // print(result);
 
-  List<int> numbers = [33, 3, 10, 6, 4, 8, 11, 10, 14];
+  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
   final result = findSecondLargestElement(numbers: numbers);
   print(result);
 }
