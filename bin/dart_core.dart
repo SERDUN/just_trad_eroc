@@ -166,7 +166,11 @@ void main(List<String> arguments) {
   // final result = removeAllNotEvenListElements(numbers: numbers);
   // print(result);
 
+  // List<int> numbers = [33, 3, 10, 6, 4, 8, 11, 10, 14];
+  // final result = findElementsGreaterThenArithMean(numbers: numbers);
+  // print(result);
+
   List<int> numbers = [33, 3, 10, 6, 4, 8, 11, 10, 14];
-  final result = findElementsGreaterThenArithMean(numbers: numbers);
+  final result = sortInAscendingOrder(numbers: numbers);
   print(result);
 }
