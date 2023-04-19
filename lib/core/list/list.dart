@@ -14,3 +14,4 @@ export 'remove_all_not_even_list_elements.dart';
 export 'find_elements_greater_than_arithmetic_mean.dart';
 export 'sorts_list_in_ascending_order.dart';
 export 'find_second_largest_element_in_list.dart';
+export 'replaces_all_even_elements_with_current_average.dart';
