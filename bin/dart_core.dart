@@ -174,7 +174,12 @@ void main(List<String> arguments) {
   // final result = sortInAscendingOrder(numbers: numbers);
   // print(result);
 
-  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
-  final result = findSecondLargestElement(numbers: numbers);
+  // List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
+  // final result = findSecondLargestElement(numbers: numbers);
+  // print(result);
+
+  //replaces_all_even_elements_with_current_average_and_returns_sum_all_elements
+  List<double> numbers = [1, 4, 1, 4];
+  final result = performRequest(numbers: numbers);
   print(result);
 }
