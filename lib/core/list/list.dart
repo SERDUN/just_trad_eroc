@@ -17,3 +17,4 @@ export 'find_second_largest_element_in_list.dart';
 export 'replaces_all_even_elements_with_current_average.dart';
 export 'largest_given_element_in_list.dart';
 export 'sorts_list_of_given_elements.dart';
+export 'sort_two_lists_and_sum_them.dart';

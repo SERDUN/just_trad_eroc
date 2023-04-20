@@ -190,10 +190,18 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
-  final result = sortsListOfGivenElements(
-    numbers: numbers,
-    givenElement: 5,
+  // List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
+  // final result = sortsListOfGivenElements(
+  //   numbers: numbers,
+  //   givenElement: 5,
+  // );
+  // print(result);
+
+  List<int> numbersList1 = [12, 3, 11, 1];
+  List<int> numbersList2 = [-33, 3, 10, 6, 3, 11, 40];
+  final result = sortTwoListsAndSumThem(
+    numbers1: numbersList1,
+    numbers2: numbersList2,
   );
   print(result);
 }
