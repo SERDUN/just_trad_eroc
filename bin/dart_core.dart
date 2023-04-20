@@ -179,7 +179,14 @@ void main(List<String> arguments) {
   // print(result);
 
   //replaces_all_even_elements_with_current_average_and_returns_sum_all_elements
-  List<double> numbers = [1, 4, 1, 4];
-  final result = performRequest(numbers: numbers);
+  // List<double> numbers = [1, 4, 1, 4];
+  // final result = performRequest(numbers: numbers);
+  // print(result);
+
+  List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+  final result = findLargestGivenElement(
+    numbers: numbers,
+    givenElement: 5,
+  );
   print(result);
 }
