@@ -206,8 +206,9 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = Person();
-  result.firstName = "dmitro";
-  result.secondName = "serdun";
+  final result = Person(
+    firstName: "dmitro",
+    secondName: "serdun",
+  );
   print(result.getFullName());
 }
