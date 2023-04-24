@@ -1,6 +1,7 @@
 import 'package:dart_core/core/list/list.dart';
 import 'package:dart_core/core/math/math.dart';
 import 'package:dart_core/core/string/string.dart';
+import 'package:dart_core/core/oop/oop.dart';
 
 void main(List<String> arguments) {
   //double result = calculateSumTwoNumbers(number1: 5, number2: 7);
@@ -197,11 +198,17 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<int> numbersList1 = [12, 3, 11, 1];
-  List<int> numbersList2 = [-33, 3, 10, 6, 3, 11, 40];
-  final result = sortTwoListsAndSumThem(
-    numbers1: numbersList1,
-    numbers2: numbersList2,
+  // List<int> numbersList1 = [12, 3, 11, 1];
+  // List<int> numbersList2 = [-33, 3, 10, 6, 3, 11, 40];
+  // final result = sortTwoListsAndSumThem(
+  //   numbers1: numbersList1,
+  //   numbers2: numbersList2,
+  // );
+  // print(result);
+
+  final result = Person(
+    firstName: "dmitro",
+    secondName: "serdun",
   );
-  print(result);
+  print(result.getFullName());
 }
