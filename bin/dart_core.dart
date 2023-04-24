@@ -211,8 +211,12 @@ void main(List<String> arguments) {
   //   secondName: "serdun",
   // );
   // print(result.getFullName());
-  
-  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
-  final result = findMedianOfList(numbers: numbers);
-  print(result);
+
+  // List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 14];
+  // final result = findMedianOfList(numbers: numbers);
+  // print(result);
+
+  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 10];
+  final result = reverificationUniqueValues(numbers: numbers);
+  print(result? "reverification" : "not reverification");
 }
