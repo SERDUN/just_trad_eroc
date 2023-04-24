@@ -19,3 +19,4 @@ export 'largest_given_element_in_list.dart';
 export 'sorts_list_of_given_elements.dart';
 export 'sort_two_lists_and_sum_them.dart';
 export 'find_median_of_list.dart';
+export 'reverification_to_contains_unique_values.dart';
