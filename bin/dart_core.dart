@@ -1,6 +1,5 @@
 import 'package:dart_core/core/list/list.dart';
 import 'package:dart_core/core/math/math.dart';
-import 'package:dart_core/core/oop/create_class%20_person.dart';
 import 'package:dart_core/core/string/string.dart';
 import 'package:dart_core/core/oop/oop.dart';
 
@@ -207,8 +206,8 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-
-  final result = Person("dmitro ", "serdun");
- print(result.getFullName());
+  final result = Person();
+  result.firstName = "dmitro";
+  result.secondName = "serdun";
+  print(result.getFullName());
 }
-

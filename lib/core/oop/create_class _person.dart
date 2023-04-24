@@ -1,9 +1,8 @@
 class Person {
-  final String firstName;
-  final String secondName;
-  Person(this.firstName, this.secondName);
+   String? firstName;
+   String? secondName;
 
   String getFullName(){
-    return firstName+secondName;
+    return "$firstName $secondName";
   }
 }
