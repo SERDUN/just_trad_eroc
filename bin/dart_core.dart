@@ -216,7 +216,17 @@ void main(List<String> arguments) {
   // final result = findMedianOfList(numbers: numbers);
   // print(result);
 
-  List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 10];
-  final result = reverificationUniqueValues(numbers: numbers);
-  print(result? "reverification" : "not reverification");
+  // List<int> numbers = [-33, 3, 10, 6, -4, 8, 11, 10, 10];
+  // final result = reverificationUniqueValues(numbers: numbers);
+  // print(result? "reverification" : "not reverification");
+
+  List<int> numbers1 = [-33, 3, 10, 6, -4, 8, 11, 10, 10];
+  List<int> numbers2 = [-33, 3, 10, 6, -4, 8, 14, 10, 10];
+  List<int> numbers3 = [-33, 3, 10, 6, -4, 20, 11, 10, 10];
+  final result = findLargestElementFromSubList(
+    numbers1: numbers1,
+    numbers2: numbers2,
+    numbers3: numbers3,
+  );
+  print(result);
 }
