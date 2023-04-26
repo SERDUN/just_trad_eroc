@@ -3,27 +3,17 @@ List<int> findLargestElementFromSubList({
 }) {
   List<int> resultList = [];
   int variable = 0;
-  int variable2 = 0;
-  int variable3 = 0;
-  for (int i = 0; i < matrix.length - 1; i++) {
-    for (var element in matrix[0]) {
-      if (variable < element) {
-        variable = element;
+
+  for (int i = 0; i < matrix.length; i++) {
+    for (int j = 0; j < matrix[j].length; j++) {
+      if (variable < matrix[i][j] )
+      {
+      print(matrix[i][j]);
+      variable = matrix[i][j];
+
       }
     }
-    for (var element in matrix[1]) {
-      if (variable2 < element) {
-        variable2 = element;
-      }
-    }
+    resultList.add(variable);
   }
-  for (var element in matrix[2]) {
-    if (variable3 < element) {
-      variable3 = element;
-    }
-  }
-  resultList.add(variable);
-  resultList.add(variable2);
-  resultList.add(variable3);
-  return resultList;
+  return  resultList;
 }
