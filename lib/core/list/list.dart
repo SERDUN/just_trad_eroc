@@ -21,3 +21,4 @@ export 'sort_two_lists_and_sum_them.dart';
 export 'find_median_of_list.dart';
 export 'reverification_to_contains_unique_values.dart';
 export 'largest elements_from_sublist.dart';
+export 'elements_that_are_repeated_in_list.dart';
