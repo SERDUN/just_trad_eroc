@@ -23,3 +23,4 @@ export 'reverification_to_contains_unique_values.dart';
 export 'largest elements_from_sublist.dart';
 export 'elements_that_are_repeated_in_list.dart';
 export 'removes_all_smallest_element_from_list.dart';
+export 'multiplies_two_matrix_and_returns_result.dart';

@@ -235,7 +235,21 @@ void main(List<String> arguments) {
 //   final result = FindElementsAreRepeated(numbers: numbers);
 //   print(result);
 
- List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
-   final result = removeAllSmallestElement(numbers: numbers);
-   print(result);
- }
+  // List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  //   final result = removeAllSmallestElement(numbers: numbers);
+  //   print(result);
+
+  List<List<int>> numbers1 = [
+    [100, 3, 1],
+    [1, 6, 7],
+  ];
+  List<List<int>> numbers2 = [
+    [2, 2, 1],
+    [1, 6, 2],
+  ];
+  final result = multipliesTwoMatrix(
+    matrix1: numbers1,
+    matrix2: numbers2,
+  );
+  print(result);
+}
