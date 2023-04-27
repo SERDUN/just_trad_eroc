@@ -220,14 +220,18 @@ void main(List<String> arguments) {
   // final result = reverificationUniqueValues(numbers: numbers);
   // print(result? "reverification" : "not reverification");
 
-  List<List<int>> numbers = [
-    [11, 10, 12],
-    [6, 8, 25],
-    [11, 10, 12],
-  ];
+  // List<List<int>> numbers = [
+  //   [11, 10, 12],
+  //   [6, 8, 25],
+  //   [11, 10, 12],
+  // ];
+  //
+  // final result = findLargestElementFromSubList(
+  //   matrix: numbers,
+  // );
+  // print(result);
 
-  final result = findLargestElementFromSubList(
-    matrix: numbers,
-  );
+  List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  final result = FindElementsAreRepeated(numbers: numbers);
   print(result);
 }
