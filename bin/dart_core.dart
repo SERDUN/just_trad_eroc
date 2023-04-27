@@ -231,7 +231,11 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
-  final result = FindElementsAreRepeated(numbers: numbers);
-  print(result);
-}
+//   List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+//   final result = FindElementsAreRepeated(numbers: numbers);
+//   print(result);
+
+ List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+   final result = removeAllSmallestElement(numbers: numbers);
+   print(result);
+ }
