@@ -253,13 +253,17 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<List<int>> numbers = [
-    [2, 2, 1],
-    [1, 6, 2],
-    [3, 3, 3],
-  ];
-  final result = findsTransposedMatrix(
-    matrix: numbers,
-  );
+  // List<List<int>> numbers = [
+  //   [2, 2, 1],
+  //   [1, 6, 2],
+  //   [3, 3, 3],
+  // ];
+  // final result = findsTransposedMatrix(
+  //   matrix: numbers,
+  // );
+  // print(result);
+
+  List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  final result = separateEvenAndNotEvenElements(numbers: numbers);
   print(result);
 }
