@@ -239,17 +239,27 @@ void main(List<String> arguments) {
   //   final result = removeAllSmallestElement(numbers: numbers);
   //   print(result);
 
-  List<List<int>> numbers1 = [
-    [100, 3, 1],
-    [1, 6, 7],
-  ];
-  List<List<int>> numbers2 = [
+  // List<List<int>> numbers1 = [
+  //   [100, 3, 1],
+  //   [1, 6, 7],
+  // ];
+  // List<List<int>> numbers2 = [
+  //   [2, 2, 1],
+  //   [1, 6, 2],
+  // ];
+  // final result = multipliesTwoMatrix(
+  //   matrix1: numbers1,
+  //   matrix2: numbers2,
+  // );
+  // print(result);
+
+  List<List<int>> numbers = [
     [2, 2, 1],
     [1, 6, 2],
+    [3, 3, 3],
   ];
-  final result = multipliesTwoMatrix(
-    matrix1: numbers1,
-    matrix2: numbers2,
+  final result = findsTransposedMatrix(
+    matrix: numbers,
   );
   print(result);
 }
