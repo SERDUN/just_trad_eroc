@@ -25,3 +25,4 @@ export 'elements_that_are_repeated_in_list.dart';
 export 'removes_all_smallest_element_from_list.dart';
 export 'multiplies_two_matrix_and_returns_result.dart';
 export 'finds_transposed_matrix.dart';
+export 'separate_even_and_not_even_elements .dart';
