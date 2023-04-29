@@ -273,7 +273,11 @@ void main(List<String> arguments) {
   //   result ? "Sorted in ascending order" : "Not Sorted",
   // );
 
+  // List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  // final result = findSumSquaresElements(numbers: numbers);
+  // print(result);
+
   List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
-  final result = findSumSquaresElements(numbers: numbers);
+  final result = findNumberUniqueElements(numbers: numbers);
   print(result);
 }
