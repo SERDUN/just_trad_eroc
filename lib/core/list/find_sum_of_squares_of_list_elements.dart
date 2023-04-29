@@ -1,9 +1,13 @@
+import 'dart:math';
+
 int findSumSquaresElements({
   required List<int> numbers,
 }) {
+  List<int> resultList = [];
   int result = 0;
   for (var element in numbers) {
-    result += element * element;
+    num result = pow(element, 2);
+    resultList.add(result.toInt());
   }
-  return result;
+  return resultList.reduce((a, b) => a + b);
 }
