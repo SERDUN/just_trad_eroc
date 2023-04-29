@@ -263,7 +263,13 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
-  final result = separateEvenAndNotEvenElements(numbers: numbers);
-  print(result);
+  // List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  // final result = separateEvenAndNotEvenElements(numbers: numbers);
+  // print(result);
+
+  List<int> numbers = [1, 3, 4, 5, 6, 1, 8];
+  final result = whetherListSortedInAscending(numbers: numbers);
+  print(
+    result ? "Sorted in ascending order" : "Not Sorted",
+  );
 }
