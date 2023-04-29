@@ -277,7 +277,17 @@ void main(List<String> arguments) {
   // final result = findSumSquaresElements(numbers: numbers);
   // print(result);
 
-  List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
-  final result = findNumberUniqueElements(numbers: numbers);
+  // List<int> numbers = [5, 8, 3, 8, 8, 1, 1, 6, 7, 8, 9];
+  // final result = findNumberUniqueElements(numbers: numbers);
+  // print(result);
+
+  List<List<int>> numbers = [
+    [2, 2, 1],
+    [1, 6, 7],
+    [3, 3, 3],
+  ];
+  final result = findMinAndMaxValueInMatrix(
+    matrix: numbers,
+  );
   print(result);
 }

@@ -29,3 +29,4 @@ export 'separate_even_and_not_even_elements .dart';
 export 'whether_list_is_sorted_in_ascending_order.dart';
 export 'find_sum_of_squares_of_list_elements.dart';
 export 'finds_number_of_each_unique_element.dart';
+export 'finds_minimum_and_maximum_value_in_matrix.dart';
