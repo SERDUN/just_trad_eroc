@@ -1,4 +1,4 @@
-String findMinAndMaxValueInMatrix({
+ListValue findMinAndMaxValueInMatrix({
   required List<List<int>> matrix,
 }) {
   int maxNumber = 0;
@@ -13,5 +13,20 @@ String findMinAndMaxValueInMatrix({
       }
     }
   }
-  return "Minimum value: $minNumber, Maximum value: $maxNumber";
+  return ListValue(maxNumber, minNumber);
+}
+
+class ListValue {
+  ListValue(
+    this.maxNumber,
+    this.minNumber,
+  );
+
+  final int maxNumber;
+  final int minNumber;
+
+  @override
+  String toString() {
+    return 'ListValue{maxNumber: $maxNumber, minNumber: $minNumber}';
+  }
 }
