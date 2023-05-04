@@ -300,15 +300,6 @@ void main(List<String> arguments) {
   //   matrix: numbers,
   // );
   // print(result);
-  // List<List<int>> numbers = [
-  //   [2, 2, 1],
-  //   [1, 6, 7],
-  //   [3, 3, 3],
-  // ];
-  // final result = findMinAndMaxValueInMatrix(
-  //   matrix: numbers,
-  // );
-  // print(result);
 
   final result = Car(40500, 'Mersedes', 1999, 2023);
   print(result.informationCar());
