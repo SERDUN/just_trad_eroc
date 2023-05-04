@@ -281,12 +281,22 @@ void main(List<String> arguments) {
   // final result = findNumberUniqueElements(numbers: numbers);
   // print(result);
 
+  // List<List<int>> numbers = [
+  //   [2, 2, 1],
+  //   [1, 6, 7],
+  //   [3, 3, 3],
+  // ];
+  // final result = findMinAndMaxValueInMatrix(
+  //   matrix: numbers,
+  // );
+  // print(result);
+
   List<List<int>> numbers = [
     [2, 2, 1],
     [1, 6, 7],
     [3, 3, 3],
   ];
-  final result = findMinAndMaxValueInMatrix(
+  final result = findDiagonalElementsInMatrix(
     matrix: numbers,
   );
   print(result);
