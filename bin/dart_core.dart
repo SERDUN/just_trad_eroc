@@ -291,13 +291,22 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  List<List<int>> numbers = [
-    [2, 2, 1],
-    [1, 6, 7],
-    [3, 3, 3],
-  ];
-  final result = findDiagonalElementsInMatrix(
-    matrix: numbers,
+  // List<List<int>> numbers = [
+  //   [2, 2, 1],
+  //   [1, 6, 7],
+  //   [3, 3, 3],
+  // ];
+  // final result = findDiagonalElementsInMatrix(
+  //   matrix: numbers,
+  // );
+  // print(result);
+
+  final result = Car(
+    mileage: 40500,
+    brand: 'Mersedes',
+    graduationYear: 1999,
+    nowadays: 2023,
   );
-  print(result);
+  result.nowadays = 2024;
+  print(result.informationCar);
 }
