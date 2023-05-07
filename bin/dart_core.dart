@@ -301,6 +301,12 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = Car(40500, 'Mersedes', 1999, 2023);
-  print(result.informationCar());
+  final result = Car(
+    mileage: 40500,
+    brand: 'Mersedes',
+    graduationYear: 1999,
+    nowadays: 2023,
+  );
+  result.nowadays = 2024;
+  print(result.informationCar);
 }
