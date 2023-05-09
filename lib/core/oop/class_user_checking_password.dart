@@ -1,5 +1,3 @@
-import 'dart:io';
-
 class User {
   User({
     required userName,
@@ -13,26 +11,13 @@ class User {
   final String _email;
   String _password;
 
-  set changePassword(String changPassword) => _password = changPassword;
+  set changePassword(String newPassword) => _password = newPassword;
 
-  allInformation() {
-    print("Enter password");
-    String? password = stdin.readLineSync()!;
+  String passwordValidation(String password) {
     if (password == _password) {
-      print("User name: $_userName; e-mail: $_email; password: $_password;");
-      return changPassword();
+      return ("User name: $_userName; e-mail: $_email; password: $_password;");
     } else {
       return "Not Correct";
     }
-  }
-
-  changPassword() {
-    print("You wont change password?");
-    String passwordEnter = '';
-    String? answer = stdin.readLineSync()!;
-    if (answer == "yes") {
-      return passwordEnter = stdin.readLineSync()!;
-    }
-    return null;
   }
 }

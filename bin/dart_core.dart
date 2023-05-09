@@ -313,5 +313,6 @@ void main(List<String> arguments) {
   // print(result.informationCar);
 
   final result = User(userName: "Yurii", email: "dou@.com", password: "111");
-  print(result.allInformation());
+  result.changePassword = '111';
+  print(result.passwordValidation("111"));
 }
