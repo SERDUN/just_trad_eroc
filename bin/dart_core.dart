@@ -312,7 +312,11 @@ void main(List<String> arguments) {
   // result.nowadays = 2024;
   // print(result.informationCar);
 
-  final result = User(userName: "Yurii", email: "dou@.com", password: "111");
-  result.changePassword = '111';
-  print(result.passwordValidation("111"));
+  final result = User(
+    userName: "Yurii",
+    email: "dou@.com",
+    password: "1asda11",
+  );
+  result.changePassword = 'kjhkjhjl23424';
+  print(result.userAccount());
 }

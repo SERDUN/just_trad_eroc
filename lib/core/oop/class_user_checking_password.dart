@@ -13,11 +13,24 @@ class User {
 
   set changePassword(String newPassword) => _password = newPassword;
 
-  String passwordValidation(String password) {
-    if (password == _password) {
-      return ("User name: $_userName; e-mail: $_email; password: $_password;");
+  bool passwordValidation() {
+    String letters = "qwertyuiopasdfghjklzxcvbnm";
+    String numbers = "123";
+    List<String> aa = letters.split(" ").toList();
+    print(aa);
+    if (_password.length >= 5 &&
+        !_password.contains(RegExp(r'\W')) &&
+        RegExp(r'\w+\d+').hasMatch(_password)) {
+      return true;
     } else {
-      return "Not Correct";
+      return false;
     }
+  }
+
+  String userAccount() {
+    if (passwordValidation() == true) {
+      return ("User name: $_userName; e-mail: $_email; password: $_password;");
+    }
+    return "Not correct password";
   }
 }
