@@ -312,17 +312,20 @@ void main(List<String> arguments) {
   // result.nowadays = 2024;
   // print(result.informationCar);
 
-  final result = User(
-    userName: "Yurii",
-    email: "dou@.com",
-    password: "1asda11",
-  );
+  // final result = User(
+  //   userName: "Yurii",
+  //   email: "dou@.com",
+  //   password: "1asda11",
+  // );
+  //
+  // String newPass = "zd54656//d";
+  // if (result.validatePassword(newPass)) {
+  //   result.changePassword = newPass;
+  //   print(result);
+  // } else {
+  //   print("No correct password");
+  // }
 
-  String newPass = "zd54656//d";
-  if (result.validatePassword(newPass)) {
-    result.changePassword = newPass;
-    print(result);
-  } else {
-    print("No correct password");
-  }
+  final result = Square(14, 10);
+  print(result);
 }
