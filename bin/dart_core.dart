@@ -326,6 +326,8 @@ void main(List<String> arguments) {
   //   print("No correct password");
   // }
 
-  final result = Square(14, 10);
-  print(result);
+  // final result = Square(14, 10);
+  // print(result);
+
+  print(CalculatorHelper.multiplication(5,3));
 }
