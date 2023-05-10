@@ -11,26 +11,15 @@ class User {
   final String _email;
   String _password;
 
-  set changePassword(String newPassword) => _password = newPassword;
+  set changePassword(passEnter) => _password = passEnter;
 
-  bool passwordValidation() {
-    String letters = "qwertyuiopasdfghjklzxcvbnm";
-    String numbers = "123";
-    List<String> aa = letters.split(" ").toList();
-    print(aa);
-    if (_password.length >= 5 &&
-        !_password.contains(RegExp(r'\W')) &&
-        RegExp(r'\w+\d+').hasMatch(_password)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  bool validatePassword(String passEnter) =>
+      passEnter.length >= 5 &&
+      passEnter.contains(RegExp(r'\W')) &&
+      RegExp(r'\w+\d+').hasMatch(passEnter);
 
-  String userAccount() {
-    if (passwordValidation() == true) {
-      return ("User name: $_userName; e-mail: $_email; password: $_password;");
-    }
-    return "Not correct password";
+  @override
+  String toString() {
+    return 'User{_userName: $_userName, _email: $_email, _password: $_password}';
   }
 }

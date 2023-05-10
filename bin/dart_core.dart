@@ -317,6 +317,12 @@ void main(List<String> arguments) {
     email: "dou@.com",
     password: "1asda11",
   );
-  result.changePassword = 'kjhkjhjl23424';
-  print(result.userAccount());
+
+  String newPass = "zd54656//d";
+  if (result.validatePassword(newPass)) {
+    result.changePassword = newPass;
+    print(result);
+  } else {
+    print("No correct password");
+  }
 }
