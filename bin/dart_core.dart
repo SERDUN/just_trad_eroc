@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dart_core/core/list/list.dart';
 import 'package:dart_core/core/math/math.dart';
 import 'package:dart_core/core/string/string.dart';
@@ -301,12 +303,26 @@ void main(List<String> arguments) {
   // );
   // print(result);
 
-  final result = Car(
-    mileage: 40500,
-    brand: 'Mersedes',
-    graduationYear: 1999,
-    nowadays: 2023,
+  // final result = Car(
+  //   mileage: 40500,
+  //   brand: 'Mersedes',
+  //   graduationYear: 1999,
+  //   nowadays: 2023,
+  // );
+  // result.nowadays = 2024;
+  // print(result.informationCar);
+
+  final result = User(
+    userName: "Yurii",
+    email: "dou@.com",
+    password: "1asda11",
   );
-  result.nowadays = 2024;
-  print(result.informationCar);
+
+  String newPass = "zd54656//d";
+  if (result.validatePassword(newPass)) {
+    result.changePassword = newPass;
+    print(result);
+  } else {
+    print("No correct password");
+  }
 }
