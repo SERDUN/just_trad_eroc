@@ -331,11 +331,19 @@ void main(List<String> arguments) {
 
   // print(CalculatorHelper.multiplication(5,3));
 
+  // List<List<int>> numbers = [
+  //   [5, 1, 1],
+  //   [1, 1, 1],
+  //   [1, 1, 5],
+  // ];
+  // final result = findSumAllMatrixElements(matrix: numbers);
+  // print(result);
+
   List<List<int>> numbers = [
-    [5, 1, 1],
-    [1, 1, 1],
-    [1, 1, 5],
+    [5, 1, 2],
+    [2, 2, 2],
+    [2, 1, 5],
   ];
-  final result = findSumAllMatrixElements(matrix: numbers);
+  final result = findSumElementInternalMatrix(matrix: numbers);
   print(result);
 }
