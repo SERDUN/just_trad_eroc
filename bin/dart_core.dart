@@ -339,11 +339,19 @@ void main(List<String> arguments) {
   // final result = findSumAllMatrixElements(matrix: numbers);
   // print(result);
 
+  // List<List<int>> numbers = [
+  //   [5, 1, 2],
+  //   [2, 2, 2],
+  //   [2, 1, 5],
+  // ];
+  // final result = findSumElementInternalMatrix(matrix: numbers);
+  // print(result);
+
   List<List<int>> numbers = [
     [5, 1, 2],
     [2, 2, 2],
     [2, 1, 5],
   ];
-  final result = findSumElementInternalMatrix(matrix: numbers);
+  final result = findSumElementRowAndColOfMatrix(matrix: numbers);
   print(result);
 }
