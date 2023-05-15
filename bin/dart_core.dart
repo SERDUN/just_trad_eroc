@@ -347,11 +347,19 @@ void main(List<String> arguments) {
   // final result = findSumElementInternalMatrix(matrix: numbers);
   // print(result);
 
+  // List<List<int>> numbers = [
+  //   [5, 1, 2],
+  //   [2, 2, 2],
+  //   [2, 1, 5],
+  // ];
+  // final result = findSumElementRowAndColOfMatrix(matrix: numbers);
+  // print(result);
+
   List<List<int>> numbers = [
-    [5, 1, 2],
-    [2, 2, 2],
-    [2, 1, 5],
+    [5, 1, 1],
+    [1, 15, 1],
+    [1, 1, 5],
   ];
-  final result = findSumElementRowAndColOfMatrix(matrix: numbers);
-  print(result);
+  final result = checkMatrixForSymmetry(matrix: numbers);
+  print(result ? "Symmetry matrix" : "Not symmetry matrix");
 }
