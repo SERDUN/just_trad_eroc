@@ -355,11 +355,18 @@ void main(List<String> arguments) {
   // final result = findSumElementRowAndColOfMatrix(matrix: numbers);
   // print(result);
 
+  // List<List<int>> numbers = [
+  //   [5, 1, 1],
+  //   [1, 15, 1],
+  //   [1, 1, 5],
+  // ];
+  // final result = checkMatrixForSymmetry(matrix: numbers);
+  // print(result ? "Symmetry matrix" : "Not symmetry matrix");
+
   List<List<int>> numbers = [
-    [5, 1, 1],
-    [1, 15, 1],
-    [1, 1, 5],
+    [2, 2],
+    [3, 7],
   ];
-  final result = checkMatrixForSymmetry(matrix: numbers);
-  print(result ? "Symmetry matrix" : "Not symmetry matrix");
+  final result = findInverseMatrix(matrix: numbers);
+  print(result);
 }
