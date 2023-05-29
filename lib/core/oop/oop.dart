@@ -3,3 +3,4 @@ export 'create_class_car.dart';
 export 'class_user_checking_password.dart';
 export 'class_square_calculate_area_and_perimeter.dart';
 export 'class_calculator_helper.dart';
+export 'created_class_bank.dart';
