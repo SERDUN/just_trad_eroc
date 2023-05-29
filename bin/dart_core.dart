@@ -371,11 +371,19 @@ void main(List<String> arguments) {
 //   print(result);
 // }
 
-  List<List<double>> numbers = [
-    [5, 1, 1],
-    [1, 1, 1],
-    [1, 1, 5],
-  ];
-  final result = findDeterminantMatrix(matrix: numbers);
+  // List<List<double>> numbers = [
+  //   [5, 1, 1],
+  //   [1, 1, 1],
+  //   [1, 1, 5],
+  // ];
+  // final result = findDeterminantMatrix(matrix: numbers);
+  // print(result);
+
+  final result = Bank(
+    nameBank: "",
+    accountNumber: 123213,
+    cardBalance: 23.23,
+  );
+  result.changeCardBalance = 234142;
   print(result);
 }
