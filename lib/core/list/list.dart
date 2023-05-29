@@ -36,3 +36,4 @@ export 'find_sum_elements_each_internal_matrix.dart';
 export 'find_sum_elemets_row_and_column_of_matrix.dart';
 export 'check_matrix_for_symmetry.dart';
 export 'find_inverse_matrix.dart';
+export 'find_determinant_matrix.dart';
