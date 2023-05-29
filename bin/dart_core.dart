@@ -363,10 +363,19 @@ void main(List<String> arguments) {
   // final result = checkMatrixForSymmetry(matrix: numbers);
   // print(result ? "Symmetry matrix" : "Not symmetry matrix");
 
-  List<List<int>> numbers = [
-    [2, 2],
-    [3, 7],
+//   List<List<int>> numbers = [
+//     [2, 2],
+//     [3, 7],
+//   ];
+//   final result = findInverseMatrix(matrix: numbers);
+//   print(result);
+// }
+
+  List<List<double>> numbers = [
+    [5, 1, 1],
+    [1, 1, 1],
+    [1, 1, 5],
   ];
-  final result = findInverseMatrix(matrix: numbers);
+  final result = findDeterminantMatrix(matrix: numbers);
   print(result);
 }
